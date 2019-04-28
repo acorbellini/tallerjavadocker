@@ -1,0 +1,6 @@
+spring.data.rest.basePath: /api
+
+---
+spring: 
+   profiles: docker
+spring.data.mongodb.host: db
