@@ -1,6 +1,5 @@
 FROM openjdk:13-alpine
 
-RUN mkdir /add
 WORKDIR /app
 
 ADD .mvn /app/.mvn
